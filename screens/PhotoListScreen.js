@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, FlatList, Image, StyleSheet, TouchableOpacity, TextInput, Button } from 'react-native';
-import { retrievePhotosFromDB, deletePhotoFromDB } from './Database.js';
+import { retrievePhotosFromDB, deletePhotoFromDB } from '/Database.js';
 
 class PhotoListScreen extends React.Component {
   constructor(props) {
